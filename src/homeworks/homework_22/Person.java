@@ -64,7 +64,7 @@ public class Person {
     }
 
     public void setName(String name) {
-        if (name == null) {
+        if (name == null || name.length() == 0) {
             System.out.println("Имя не введено");
         } else {
             this.name = name;
