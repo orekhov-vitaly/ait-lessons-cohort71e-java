@@ -25,6 +25,11 @@ public class Square extends Figure {
     }
 
     @Override
+    public double getPerimetr() {
+        return side * 4;
+    }
+
+    @Override
     public String toString() {
         return "Square: " +
                 "side=" + side;

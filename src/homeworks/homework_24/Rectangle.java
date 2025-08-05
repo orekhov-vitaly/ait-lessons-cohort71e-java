@@ -40,6 +40,11 @@ public class Rectangle extends Figure {
     }
 
     @Override
+    public double getPerimetr() {
+        return width * 2 + length * 2;
+    }
+
+    @Override
     public String toString() {
         return "Rectangle: " +
                 "width=" + width +

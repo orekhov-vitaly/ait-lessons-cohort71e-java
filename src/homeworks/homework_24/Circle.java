@@ -25,6 +25,11 @@ public class Circle extends Figure {
     }
 
     @Override
+    public double getPerimetr() {
+        return 2 * Math.PI * radius;
+    }
+
+    @Override
     public String toString() {
         return "Circle: " +
                 "radius=" + radius;
