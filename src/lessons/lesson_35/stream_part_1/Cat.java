@@ -1,4 +1,4 @@
-package lessons.lesson_35.task_03;
+package lessons.lesson_35.stream_part_1;
 
 import java.util.Objects;
 

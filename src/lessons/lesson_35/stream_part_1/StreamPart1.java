@@ -1,9 +1,9 @@
-package lessons.lesson_35.task_03;
+package lessons.lesson_35.stream_part_1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Stream {
+public class StreamPart1 {
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<>(List.of(6, 17, 4, 12, 15, 7, 2, 14, 8));
 
