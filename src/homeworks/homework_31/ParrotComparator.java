@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 public class ParrotComparator implements Comparator<Parrot> {
     @Override
-    public int compare(Parrot o1, Parrot o2) {
-        return Integer.compare(o1.getWordsCount(), o2.getWordsCount());
+    public int compare(Parrot parrot1, Parrot parrot2) {
+        return Integer.compare(parrot1.getWordsCount(), parrot2.getWordsCount());
     }
 }

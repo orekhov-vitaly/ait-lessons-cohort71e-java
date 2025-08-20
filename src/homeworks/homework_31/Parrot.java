@@ -27,7 +27,7 @@ public class Parrot implements Comparable<Parrot>{
 
     @Override
     public int compareTo(Parrot other) {
-        return Integer.compare(this.age, other.age);
+        return Integer.compare(age, other.age);
     }
 
     @Override
