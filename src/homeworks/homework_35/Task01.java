@@ -1,4 +1,4 @@
-package homeworks.homework_34;
+package homeworks.homework_35;
 
 /*
 Создайте лист чисел и заполните его произвольными значениями от 0 до 20 (10 значений).
