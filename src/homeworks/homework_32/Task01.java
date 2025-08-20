@@ -44,9 +44,11 @@ public class Task01 {
         System.out.println("\n=== Task 2 ===");
         double averagePoint = 0;
         for (Map.Entry<String, Double> student : students.entrySet()) {
-            System.out.print(student.getKey() + ": " + student.getValue() + " -> ");
-            student.setValue(student.getValue() + 0.2);
-            System.out.println(student.getValue());
+            if (student.getKey().length() % 2 !=0) {
+                System.out.print(student.getKey() + ": " + student.getValue() + " -> ");
+                student.setValue(student.getValue() + 0.2);
+                System.out.println(student.getValue());
+            }
             averagePoint += student.getValue();
         }
         averagePoint = averagePoint / students.size();
