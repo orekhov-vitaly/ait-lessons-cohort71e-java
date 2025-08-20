@@ -23,7 +23,11 @@ public class Task01 {
         students.add("Leon");
         students.add("John");
 
-        System.out.println(students.size()); // Set хранит только уникальные элементы, а имя John у нас повторяется, поэтому в сэте сохранено 5 элементов
+        System.out.println("Размер сета: " + students.size()); // Set хранит только уникальные элементы, а имя John у нас повторяется, поэтому в сэте сохранено 5 элементов
+
+        boolean isStudentAdd = students.add("Jenna");
+
+        System.out.println("Был ли добавлен студент? - " + isStudentAdd);
 
         System.out.println("Есть ли в сете студент Leon? - " + students.contains("Leon"));
         System.out.println("Есть ли в сете студент Samanta? - " + students.contains("Samanta"));
